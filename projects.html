@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+      /* Global styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 1em 0;
+        font-weight: bold;
+      }
+
+      p {
+        margin: 0.5em 0;
+        line-height: 1.5;
+      }
+
+      /* Navigation styles */
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #fff;
+        margin: 0 10px;
+      }
+
+      nav a:hover {
+        color: #ccc;
+      }
+
+      /* Project card styles */
+      .project-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        width: 50%;
+        float: left;
+      }
+
+      .project-card a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .project-card h3 {
+        margin-bottom: 10px;
+      }
+
+      .project-card p {
+        font-size: 0.8em;
+      }
+
+      /* Optional media query for smaller screens */
+      @media only screen and (max-width: 768px) {
+        .project-card {
+          width: 100%;
+          float: none;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="./common.css" />
+  </head>
+
+  <body>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li>
+          <a href="https://mallikarjun.hashnode.dev/" target="_blank">Blog</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="card-container">
+          <a href="./restraunt/index.html">
+            <div class="project-card">
+              <h3>Restraunt Website</h3>
+              <p>Home page layout for a restraunt.</p>
+            </div>
+          </a>
+          <a href="./layout/layout.html">
+            <div class="project-card">
+              <h3>News Paper Layout</h3>
+              <p>Layout structure for newspaper.</p>
+            </div>
+          </a>
+          <a href="./calculator/index.html">
+            <div class="project-card">
+              <h3>Calculator</h3>
+              <p>Calculator application.</p>
+            </div>
+          </a>
+          <a href="./component design/index.html">
+            <div class="project-card">
+              <h3>Component Design</h3>
+              <p>Component design</p>
+            </div>
+          </a>
+          <a href="./timer/index.html">
+            <div class="project-card">
+              <h3>Timer</h3>
+              <p>Timer to start, reset and pause/resume.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(235, 231, 231);
+}
+
+#standard1{
+    background-color: #2ECC71;
+    color: white;
+}
+
+#standard2{
+    background-color: #2ECC71;
+    color: white;
+}
+
+.title{
+    color: rgb(68, 68, 68);
+    opacity: 0.5;
+    text-align: center;
+}
+
+.price-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.price-component{
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px rgb(221, 217, 217);
+    margin: 5px;
+}
+
+.price-banner{
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    position: relative;
+    left: 0;
+    top: -20px;
+}
+
+.price-title{
+    position: relative;
+    left: 0;
+    top: 15px;
+    z-index: 2;
+    
+}
+
+.price-header{
+    background-color: rgb(231, 231, 231);
+    height: 140px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.price-header:hover > .price-banner {
+    background-color: #2ECC71;
+    color: white;
+}
+
+.price-header:hover  .price-title {
+    color: white;
+}
+
+.price-skew{
+    background-color: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    transform: skewY(-4deg);
+    transform-origin: bottom right;
+}
+
+
+.price-tag{
+    text-align: center;
+    font-size: 160%;
+}
+
+.features{
+    text-align: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.single-feature{
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition-duration: 0.2s;
+}
+
+strong{
+    margin-right: 2px;
+}
+
+.weak{
+    font-weight: normal;
+    opacity: 0.75;
+}
+
+strong, .weak{
+    padding: 7px 2px ;
+}
+
+
+.single-feature:hover{
+    border-left: 5px solid #2ECC71;
+    background-color: #d3d2d2;
+}
+
+.price-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn{
+    padding: 15px;
+    outline: none;
+    border:1px solid #2ECC71;;
+    background-color: transparent;
+    color: #2ECC71;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #2ECC71;
+    color: white;
+}
+
+.credits{
+    text-align: center;
+}

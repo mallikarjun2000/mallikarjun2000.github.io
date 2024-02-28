@@ -1,0 +1,77 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+p {
+  margin: 0.5em 0;
+  line-height: 1.5;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* Home section styles */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.introduction {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.basics {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+/* Other sections can have similar styles following the pattern */
+
+/* Optional media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+}

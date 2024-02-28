@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,300;1,100&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,300;1,100&family=Ubuntu:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <title>Welcome</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id='backgroundSvg'>
+            <path id='wave' fill="#0099ff" fill-opacity="1"
+                d="M0,224L60,208C120,192,240,160,360,128C480,96,600,64,720,90.7C840,117,960,203,1080,229.3C1200,256,1320,224,1380,208L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+            </path>
+        </svg>
+        <div class="nav-title">YOUR LOGO</div>
+        <div class="nav-right">
+            <div class="nav-item"><a href="#">Home</a></div>
+            <div class="nav-item"><a href="#menu">Our menu</a></div>
+            <div class="nav-item"><a href="#promo">Promos</a></div>
+            <div class="nav-item"><a href="#delivery">Order</a></div>
+        </div>
+    </nav>
+    <div class="home">
+        <label class="home-title">Healthy Food Restraunt</label>
+        <p class="home-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore
+            magna aliqua.</p>
+    </div>
+    <div class="menu" id='menu'>
+        <label class="menu-title">POPULAR MENU</label>
+        <div class="menu-dishes">
+            <div class="menu-card">
+                <img class="menu-img"
+                    src='https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/hakka-noodles.jpg' />
+                <div class="menu-dish-details">
+                    <label class="dish-name">Noodles</label>
+                    <label class="dish-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor</label>
+                    <label class="dish-price">$19</label>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img class="menu-img"
+                    src='https://images.unsplash.com/photo-1612927601601-6638404737ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80' />
+                <div class="menu-dish-details">
+                    <label class="dish-name">Ramen</label>
+                    <label class="dish-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor</label>
+                    <label class="dish-price">$29</label>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img class="menu-img"
+                    src='https://images.unsplash.com/photo-1588001291548-948f55922bfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1144&q=80' />
+                <div class="menu-dish-details">
+                    <label class="dish-name">Veg Hakka</label>
+                    <label class="dish-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor</label>
+                    <label class="dish-price">$39</label>
+                </div>
+            </div>
+        </div>
+        <button class="menu-btn">SHOW MORE</button>
+    </div>
+    <div class="section-1" id='promo'>
+        <div class="section-left"><img
+                src="https://images.unsplash.com/photo-1618889482923-38250401a84e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+        </div>
+        <div class="section-right">
+            <label class="section-title">Discount up to 50% All Menu</label>
+            <label class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</label>
+            <button class="menu-btn">READ MORE</button>
+        </div>
+    </div>
+    <div class="section-3" id='order'>
+        <div class="order-title">HOW TO ORDER</div>
+        <div class="order">
+            <div class="order-step">
+                <div class="step">01</div>
+                <div class="step-title">Order</div>
+                <div class="step-desc">Lorem ipsum dolor sit amet, consectetur tempor
+                    voluptates</div>
+            </div>
+            <div class="order-step">
+                <div class="step">02</div>
+                <div class="step-title">Choose Menu</div>
+                <div class="step-desc">Lorem ipsum dolor sit amet, consectetur tempor
+                    voluptates</div>
+            </div>
+            <div class="order-step">
+                <div class="step">03</div>
+                <div class="step-title">Delivery</div>
+                <div class="step-desc">Lorem ipsum dolor sit amet, consectetur tempor
+                    voluptates</div>
+            </div>
+        </div>
+    </div>
+    <div class="delivery" id='delivery'>
+        <div class="menu-title delivery-title">Free Delivery</div>
+        <div class="delivery-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut
+            labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        </div>
+        <button class="menu-btn" style="width: 200px;padding: 15px;">GET VOUCHER</button>
+    </div>
+    <div class="closing">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="backgroundS2">
+            <path id='backgroundSvg2' fill="#DAF7A6" fill-opacity="1"
+                d="M0,160L60,144C120,128,240,96,360,112C480,128,600,192,720,218.7C840,245,960,235,1080,202.7C1200,171,1320,117,1380,90.7L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+            </path>
+        </svg>
+        <div class="closing-main">
+            <div class="closing-title">
+                ❝</div>
+            <div class="delivery-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut
+                labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            </div>
+            <div class="closing-footer">Augus Waiters</div>
+            <div class="socials">
+                <img src="https://img.icons8.com/ultraviolet/40/000000/facebook-new.png" />
+                <img src="https://img.icons8.com/ultraviolet/40/000000/twitter.png" />
+                <img src="https://img.icons8.com/ultraviolet/40/000000/instagram-new.png" />
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="section-left">
+            <label class="about">About</label>
+            <p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut
+                labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+        </div>
+        <div class="section-right-2">
+            <div class="About">
+                <div class="first">About</div>
+                <div>twitter</div>
+                <div>Facebook</div>
+                <div>Instagram</div>
+                <div>Swiggy</div>
+            </div>
+            <div class="About">
+                <div class="first">About</div>
+                <div>Team</div>
+                <div>Join us</div>
+                <div>Ethic</div>
+                <div>Goal</div>
+            </div>
+            <div class="About">
+                <div class="first">About</div>
+                <div>Discord</div>
+                <div>Email us</div>
+                <div>Contact</div>
+                <div>Call us</div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
