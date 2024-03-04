@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magnetic BUtton</title>
+    <style>
+      body {
+        background-color: rgb(140, 173, 234);
+        height: 90vh;
+      }
+      section {
+        block-size: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .button-group {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+      button {
+        inline-size: 150px;
+        block-size: 40px;
+        position: relative;
+      }
+
+      .magnetic:hover {
+        background-color: rgb(180, 43, 226);
+        color: white;
+        outline: none;
+        border: 1px solid gray;
+        border-radius: 5px;
+      }
+      .magnetic {
+        transition: all;
+        transition-duration: 60ms;
+        transition-timing-function: ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="button-group">
+      <button type="button" class="magnetic">I am Magnetic!</button>
+      <button type="button" class="shadow">I am clickable</button>
+      <button>Don't click me</button>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
