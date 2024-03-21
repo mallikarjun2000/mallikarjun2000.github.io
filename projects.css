@@ -44,10 +44,6 @@ nav a:hover {
   color: #ccc;
 }
 
-.card-container {
-  columns: 2;
-}
-
 /* Project card styles */
 .project-card {
   display: flex;
