@@ -1,0 +1,39 @@
+#grid {
+    width: fit-content;
+    display: grid;
+    grid-template-rows: repeat(10, 51px);
+    grid-template-columns: repeat(10, 51.3px);
+}
+
+.paint-box {
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid gray;
+    background-color: antiquewhite;
+}
+
+#color-panel {
+    margin-top: 20px;
+    display: flex;
+    width: fit-content;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.color-box {
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid gray;
+    border-radius: 50%;
+    transition: all 0.1s;
+    transform: skewX(-10deg);
+
+    margin: 2px;
+}
+
+.color-box:hover {
+    transform: scale(1.2);
+    box-shadow: 2px 2px 10px gray;
+}

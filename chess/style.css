@@ -1,0 +1,44 @@
+#grid {
+    width: 400px;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+}
+
+.chess-box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.chess-box:hover {
+    cursor: pointer;
+    opacity: 0.2;
+    background-color: #ff7377;
+    transition: all 0.4s;
+}
+
+.chess-box.highlight {
+    background-color: red;
+    opacity: 0.5;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    margin: 50px;
+}
+
+body {
+    background-color: antiquewhite;
+}
